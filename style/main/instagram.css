@@ -31,6 +31,8 @@
 .instagram-info__images {
     gap: 15px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-top: 85px;
     margin-bottom: 76px;
     padding-bottom: 20px;
