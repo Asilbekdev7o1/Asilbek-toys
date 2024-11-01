@@ -1,0 +1,104 @@
+@import url(../fonts.css);
+
+.wooden {
+    margin-bottom: 135px;
+}
+
+.wooden-custom {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.wooden-group__info {
+    display: flex;
+    margin-top: 95px;
+    justify-content: space-between;
+
+}
+
+.wooden-group__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(117, 11, 11);
+    max-width: 270px;
+    width: 100%;
+    background: white;
+    padding-bottom: 32px;
+}
+
+.wooden-item__photo {
+    width: 182px;
+}
+
+.wooden-custom__minititle {
+    color: rgb(17, 17, 17);
+    font-family: 'RR';
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.wooden-custom__panel {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.wooden-panel__link {
+    color: rgb(17, 17, 17);
+    font-family: 'RR';
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.wooden-panel__icon {
+    font-size: 14px;
+}
+
+.animal-item__minititle {
+    margin-top: 25px;
+    margin-bottom: 12px;
+    color: rgb(17, 17, 17);
+    font-family: 'RR';
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.animal-item__btn {
+    color: rgb(255, 255, 255);
+    font-family: 'RR';
+    font-size: 12px;
+    line-height: 20px;
+    border-radius: 16px;
+    padding: 2px 12px;
+    background: rgb(165, 201, 38);
+    transition: all 500ms;
+}
+
+.wooden-custom__minititle{
+    color: rgb(17, 17, 17);
+    font-family: 'RR';
+    font-size: 28px;
+    line-height: 36px;
+}
+@media (max-width: 400px) {
+    .wooden-custom {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 20px;
+    }
+}
+
+@media (max-width: 1165px) {
+    .wooden-group__info{
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 20px;
+    }
+}

@@ -1,0 +1,70 @@
+@import url(../fonts.css);
+
+.instagram {
+    height: 694px;
+    display: flex;
+    align-items: center;
+}
+
+.instagram-info__titls {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.instagram-titls__minititle {
+    color: rgb(165, 201, 38);
+    font-family: 'RR';
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.instagram-titls__title {
+    color: rgb(17, 17, 17);
+    font-family: 'RR';
+    font-size: 31px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.instagram-info__images {
+    gap: 15px;
+    display: flex;
+    margin-top: 85px;
+    margin-bottom: 76px;
+    padding-bottom: 20px;
+}
+
+.instagram-info__btns {
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-info__btn {
+    color: rgb(0, 0, 0);
+    font-family: 'RR';
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 24px;
+    transition: all 500ms;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.instagram-info__btn:hover {
+    background: rgb(165, 201, 38);
+}
+
+@media (max-width:1180px) {
+    .instagram-info__imags {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .instagram-info__btns {
+        justify-content: center;
+    }
+}
