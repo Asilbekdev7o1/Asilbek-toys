@@ -1,10 +1,14 @@
 @import url(../fonts.css);
 
+.free{
+    padding-top: 119px;
+    padding-bottom: 120px;
+}
+
 .free-project__top {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 119px;
     gap: 18px;
 }
 
@@ -24,11 +28,13 @@
     text-align: center;
     max-width: 447px;
     width: 100%;
+    margin-bottom: 80px;
 }
 
 .free-project__center {
     display: flex;
-    column-gap: 150px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .free-image__img {
@@ -39,7 +45,6 @@
     display: flex;
     flex-direction: column;
     gap: 26px;
-    padding-top: 176px;
 }
 
 .free-left__title {
@@ -51,7 +56,6 @@
 
 .free-left__hr {
     background: rgb(165, 201, 38);
-
     padding-top: 2px;
     max-width: 70px;
     width: 100%;
@@ -86,10 +90,9 @@
     background: rgb(165, 201, 38);
 }
 
-.free-project__image {
-    padding-top: 250px;
+/* .free-project__image {
 
-}
+} */
 
 .free-project__bottom {
     border-radius: 16px;

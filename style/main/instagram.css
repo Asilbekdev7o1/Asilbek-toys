@@ -6,6 +6,7 @@
     align-items: center;
 }
 
+
 .instagram-info__titls {
     display: flex;
     flex-direction: column;
@@ -60,7 +61,8 @@
     background: rgb(165, 201, 38);
 }
 
-@media (max-width:1180px) {
+@media (max-width: 1180px) {
+
     .instagram-info__imags {
         flex-wrap: wrap;
         justify-content: center;
@@ -69,4 +71,28 @@
     .instagram-info__btns {
         justify-content: center;
     }
+
+
 }
+
+@media (max-width: 1180px) {
+    .instagram {
+        height: 800px;
+
+    }
+}
+
+@media (max-width: 576px) {
+    .instagram {
+        height: 950px;
+
+    }
+}
+
+@media (max-width: 400px) {
+    .instagram {
+        height: 1500px;
+
+    }
+}
+
